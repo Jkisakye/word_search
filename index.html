@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>word search</title>
+</head>
+<body style="background-color:beige ; font-family: Arial, Helvetica, sans-serif;">
+    <h1 id="page-title">words from random letters</h1>
+    
+    <div class="input">
+        <input type="text" id="inputLetters" placeholder="only in lower case" maxlength="9" minlength="2">
+        <button onclick="getWords()" type="submit">submit</button>
+    </div>
+
+    <h3 class="letters" style="color: rgb(82, 81, 81);"></h3>
+
+    <ul class="wordsFound"></ul>
+    <script src="sandbox.js"></script>
+</body>
+</html>
