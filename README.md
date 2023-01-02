@@ -3,4 +3,4 @@ A simple word search website where you type in letters and it generates all poss
 I'm just testing how fast and efficiently I can generate the permutations and do comparisons 
 
 Still in development.
-Subject to CARS blockers at the moment.
+Subject to CORS blockers at the moment.
